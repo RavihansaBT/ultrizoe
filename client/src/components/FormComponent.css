@@ -1,0 +1,21 @@
+.form__body {
+    /* background-color: blue; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__body>form{
+    width: 60%;
+}
+.form__body>form>h2{
+    margin-bottom: 15%;
+    text-align: left;
+}
+
+.dropdownMenu{
+    max-height: 200;
+    overflow-y: auto;
+    background-color: black;
+}

@@ -1,0 +1,26 @@
+.table__body{
+    height: 100%;
+    margin: 0rem 2rem 2rem 2rem ;
+}
+
+.info__title{
+    display: flex;
+    padding: 2rem;
+    margin-bottom: 0;
+}
+
+.info__title>h2{
+    margin-top: 2rem;
+    margin-left: 15rem;
+    padding-left: auto;
+}
+
+.page__body{
+    margin: 8%;
+    border-radius: 25px;
+}
+
+.table__row{
+    background-color: rgb(237, 238, 238);
+    margin-top: 5rem;
+}

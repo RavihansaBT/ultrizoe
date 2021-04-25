@@ -1,0 +1,10 @@
+.title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.title >h1{
+    font-weight: bolder;
+}

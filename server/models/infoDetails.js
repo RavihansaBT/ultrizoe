@@ -3,8 +3,10 @@ const mongoose = require('mongoose')
 const InfoSchema = new mongoose.Schema({
     firstName: String,
     lastName: String,
-    contactNo: String,
-    gender: Boolean,
+    contactNo: {
+        type: String
+    },
+    gender: Number,
     country: String,
     createAt: {
         type: Date,
